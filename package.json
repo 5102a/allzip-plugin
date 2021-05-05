@@ -1,0 +1,34 @@
+{
+  "name": "allzip-plugin",
+  "version": "1.0.0",
+  "description": "all file zip plugin",
+  "main": "./lib/cjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib && npm link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1015355299/allzip-plugin.git"
+  },
+  "keywords": [
+    "zip",
+    "plugin"
+  ],
+  "author": "5102a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1015355299/allzip-plugin/issues"
+  },
+  "homepage": "https://github.com/1015355299/allzip-plugin#readme",
+  "dependencies": {
+    "jszip": "^3.6.0",
+    "webpack-sources": "^2.2.0",
+    "core-js": "^3.11.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1"
+  }
+}
